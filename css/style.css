@@ -7,3 +7,23 @@ div
 {
 	border: 1px solid chocolate;
 }
+
+/* Navigation */
+.top-navigation
+{
+	background-color: #ffffff;
+}
+
+.top-navigation > .content
+{
+	height: 70px;
+	margin: 0 auto;
+	width: 970px;
+}
+
+.logo
+{
+	height: 70px;
+	margin-left: 14px;
+	width: 26px;
+}

@@ -7,7 +7,6 @@ html {
 
 body
 {
-	background-color: lightgray;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -16,10 +15,18 @@ a
 	text-decoration: none;
 }
 
+ul 
+{
+	list-style-type: none;
+}
+
 /* Navigation */
 .top-navigation
 {
 	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content
@@ -106,4 +113,26 @@ a
 	background-color: #d9400e;
 	border-color: #cf3d0e;
 	cursor: pointer;
+}
+
+/* Cases */
+.cases
+{
+	text-align: center;
+}
+
+.cases h2
+{
+	margin-top: 5em;
+}
+
+.cases .devices > li {
+  width: 33.3333333%;
+  float: left;
+}
+
+.devices img
+{
+	height: 127px;
+	width: 127px;
 }

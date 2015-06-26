@@ -20,6 +20,12 @@ ul
 	list-style-type: none;
 }
 
+.content
+{
+	margin: 0 auto;
+	width: 970px;
+}
+
 /* Navigation */
 .top-navigation
 {
@@ -32,8 +38,6 @@ ul
 .top-navigation > .content
 {
 	height: 70px;
-	margin: 0 auto;
-	width: 970px;
 }
 
 .top-navigation .links
@@ -126,13 +130,25 @@ ul
 	margin-top: 5em;
 }
 
-.cases .devices > li {
-  width: 33.3333333%;
-  float: left;
+.devices li
+{
+	display: inline-block;
+	margin: 40px;
 }
 
 .devices img
 {
 	height: 127px;
 	width: 127px;
+}
+
+/* Footer */
+.social
+{
+	text-align: center;
+}
+
+.icons li
+{
+	display: inline-block;
 }
